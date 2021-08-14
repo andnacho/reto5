@@ -1,9 +1,11 @@
 package util;
 
+import model.vo.Requerimiento_2;
+import model.vo.Requerimiento_3;
+
 import java.io.File;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
 
 
 public class JDBCUtilities {
